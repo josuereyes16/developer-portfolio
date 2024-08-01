@@ -98,6 +98,5 @@ const CoverParticles = () => {
         </div>
     )
 };
-  
 
 export default CoverParticles;
