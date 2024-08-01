@@ -1,9 +1,9 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
+        logo: <Contact size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
@@ -13,17 +13,17 @@ export const socialNetworks = [
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
+        logo: <Github size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
+        logo: <Mail size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
+        logo: <PhoneCall size={30} strokeWidth={1} />,
         src: "#!",
     },
 ];
