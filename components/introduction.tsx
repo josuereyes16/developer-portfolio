@@ -29,14 +29,13 @@ const Introduction = () => {
                     </h1>
                     <p className="mx-auto mb-2 text-xl text-center md:text-xl md:mx-0 md:mb-8">
                     I'm a web developer with experience in creating frontend and backend applications using technologies such as JavaScript, Python, React.js, Django, etc. <br />
-                     My main focus is writing clean and efficient code that meets industry standards and enhances user experience. I'm a great teammate and have effective communication skills that allow me to collaborate effectively with designers, developers, and stakeholders in all aspects of a project.
                     </p>
-                    <div className="flex flex-col items-center justify-center gap-3 mx-auto md:flex-row md:justify-center md:gap-10">
+                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/100 font-bold">
                             My projects
                         </a>
                         <a href="/contact"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary font-bold" >
+                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary  font-bold" >
                             Contact me
                         </a>
                     </div>
