@@ -6,7 +6,7 @@ import { MotionTransition } from "./transition-components";
 
 const Header = () => {
     return (
-        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5 md:top-10">
+        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5 md:top-10 px-20 ">
             <header>
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href='/'>
@@ -18,9 +18,10 @@ const Header = () => {
                         {socialNetworks.map(({ logo, src, id }) => (
                             <Link
                                 key={id}
-                                href={src}
-                                target="_blank"
+                                href={src}                                
                                 className="transition-all duration-300 hover:text-secondary"
+                                target={src.startsWith("mailto:") ? "_self" : "_blank"} 
+                                rel={src.startsWith("mailto:") ? undefined : "noopener noreferrer"} 
                             >
                                 {logo}
                             </Link>

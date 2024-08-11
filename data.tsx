@@ -1,30 +1,30 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Contact size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://drive.google.com/file/d/1I5oCZAS-0TloUHOfYVxmz3ycr8ygIvL6/view?usp=sharing",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/josuereyes16/",
     },
     {
         id: 3,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/josuereyes16",
     },
     {
         id: 4,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "mailto:antoniojosuerp@ufps.edu.co",
     },
     {
         id: 5,
         logo: <PhoneCall size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://wa.me/573143404164",
     },
 ];
 
@@ -65,60 +65,54 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Technician specializing in Software Development",
+        subtitle: "School San Francisco de Sales",
+        description: "During this program, I was introduced to web development, focusing on creating dynamic and responsive websites using HTML, CSS, and JavaScript. I also gained a strong foundation in Object-Oriented Programming (OOP) concepts, which helped me build well-structured and efficient code.",
+        date: "2017 - 2019 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Systems Engineering Career",
+        subtitle: "University Francisco de Paula Santander",
+        description: " Developed a comprehensive understanding of software engineering principles, with a strong focus on designing and optimizing systems. Worked on various projects that integrated theory and practical skills, deepening my expertise in system analysis, software development, and project management.",
+        date: "2020 - 2025",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Back-End Specialization",
+        subtitle: "One Oracle Next Education",
+        description: "Enhanced my skills in server-side development, focusing on building robust and scalable back-end systems. Gained hands-on experience with database management, API development, and cloud services, applying advanced techniques to create efficient and secure back-end solutions.",
+        date: "2023 - 2024",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: +5,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: +40,
+        text: "Skills adquiridos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: +20,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: +30,
+        text: "Certificaciones",
         lineRight: false,
         lineRightMobile: false,
     },
