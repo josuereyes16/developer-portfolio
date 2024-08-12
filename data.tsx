@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, } from "lucide-react";
+import { BookText, CodeSquare,ShieldCheck, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, Code, SquareChartGantt, Database, Brain, } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -91,28 +91,28 @@ export const dataCounter = [
     {
         id: 0,
         endCounter: +5,
-        text: "Años de experiencia",
+        text: "Years of experience",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
         endCounter: +40,
-        text: "Skills adquiridos",
+        text: "Skills acquired",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
         endCounter: +20,
-        text: "Proyectos finalizados",
+        text: "Completed projects",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
         endCounter: +30,
-        text: "Certificaciones",
+        text: "Certifications",
         lineRight: false,
         lineRightMobile: false,
     },
@@ -120,29 +120,29 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <Code />,
+        title: "Full Stack Web Development",
+        description: "Design and development of complete web applications using modern technologies.",
     },
     {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        icon: <SquareChartGantt />,
+        title: "Project Management",
+        description: "Coordination and supervision of software development projects, ensuring  deadlines and quality.",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        icon: <ShieldCheck />,
+        title: "QA Analysis",
+        description: "Execution of quality tests, identification of bugs, and ensuring the quality of applications to guarantee optimal performance.",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <Database />,
+        title: "Database Management",
+        description: "Administration and optimization  databases, ensuring the integrity and security of information.",
     },
     {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <Brain />,
+        title: "Software Engineering",
+        description: "Design and development of robust software solutions, following best practices in software  architecture.",
     },
 ];
 

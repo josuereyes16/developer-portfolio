@@ -31,14 +31,16 @@ const Introduction = () => {
                     I'm a web developer with experience in creating frontend and backend applications using technologies such as JavaScript, Python, React.js, Django, etc. <br />
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-                        <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/100 font-bold">
-                            My projects
-                        </a>
-                        <a href="/contact"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary  font-bold" >
-                            Contact me
-                        </a>
-                    </div>
+    <a href="/portfolio" className="px-3 py-2 my-2 transition-all bg-white text-black border-2 border-secondary cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary font-bold">
+        My projects
+    </a>
+    <a href="/contact"
+        className="px-3 py-2 my-5 transition-all bg-white text-black border-2 border-secondary cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary font-bold" >
+        Contact me
+    </a>
+</div>
+
+
                 </div>
             </div>
         </div>
