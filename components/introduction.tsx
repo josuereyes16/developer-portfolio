@@ -34,7 +34,7 @@ const Introduction = () => {
     <a href="/portfolio" className="px-3 py-2 my-2 transition-all bg-white text-black border-2 border-secondary cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary font-bold">
         My projects
     </a>
-    <a href="/contact"
+    <a href="/testimonials"
         className="px-3 py-2 my-5 transition-all bg-white text-black border-2 border-secondary cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary font-bold" >
         Contact me
     </a>

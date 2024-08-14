@@ -56,9 +56,9 @@ export const itemsNavbar = [
     },
     {
         id: 5,
-        title: "Home",
+        title: "Testimonials",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/contact",
+        link: "/testimonials",
     },
 ];
 
@@ -68,7 +68,7 @@ export const dataAboutPage = [
         title: "Technician specializing in Software Development",
         subtitle: "School San Francisco de Sales",
         description: "During this program, I was introduced to web development, focusing on creating dynamic and responsive websites using HTML, CSS, and JavaScript. I also gained a strong foundation in Object-Oriented Programming (OOP) concepts, which helped me build well-structured and efficient code.",
-        date: "2017 - 2019 ",
+        date: "2018 - 2019 ",
     },
     {
         id: 2,
@@ -156,35 +156,35 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Agile  Development",
         image: "/image-2.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Web Strategies",
         image: "/image-3.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "Creative Ideas",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
+        title: "Impacting websites",
         image: "/image-5.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 6,
-        title: "Web Dinámica",
+        title: "Dynamic Web",
         image: "/image-6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
@@ -205,7 +205,7 @@ export const dataPortfolio = [
     }
 ];
 
-export const dataTestimonials = [
+{/*export const dataTestimonials = [
     {
         id: 1,
         name: "George Snow",
@@ -248,4 +248,4 @@ export const dataTestimonials = [
             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
         imageUrl: "/profile6.png",
     },
-];
+];*/}
