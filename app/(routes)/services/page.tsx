@@ -19,7 +19,7 @@ const ServicesPage = () => {
                     I offer comprehensive frontend and backend web development services, creating robust, engaging, and functional websites and applications. With a full-stack approach, I use technologies such as React, Next.js, Node.js, and MongoDB to ensure optimal performance and a great user experience. Additionally, I perform quality assurance (QA) and manage databases.                             </p>
                     <div className="flex justify-center">
                         <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
-                            Contacta conmigo
+                            Contact me
                         </button>
                     </div>
                 </div>
