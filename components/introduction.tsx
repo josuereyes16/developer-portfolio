@@ -1,4 +1,3 @@
-import { AlignCenter } from "lucide-react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 
