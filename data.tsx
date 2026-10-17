@@ -1,4 +1,5 @@
-import { BookText, CodeSquare,ShieldCheck, HomeIcon, UserRound, Linkedin, Contact, Rss, Mail, PhoneCall, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, Code, SquareChartGantt, Database, Brain, } from "lucide-react";
+import { BookText, CodeSquare,ShieldCheck, HomeIcon, UserRound, Contact, Mail, PhoneCall, Speech, Code, SquareChartGantt, Database, Brain, } from "lucide-react";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 export const socialNetworks = [
     {
@@ -8,12 +9,12 @@ export const socialNetworks = [
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
+        logo: <FiLinkedin size={30} strokeWidth={1} />,
         src: "https://www.linkedin.com/in/josuereyes16/",
     },
     {
         id: 3,
-        logo: <Github size={30} strokeWidth={1} />,
+        logo: <FiGithub size={30} strokeWidth={1} />,
         src: "https://github.com/josuereyes16",
     },
     {
